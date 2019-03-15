@@ -1,0 +1,51 @@
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+div {
+    margin-left: 20%;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+
+#mainDivSearch div{
+    padding: 20px 0px 20px 0px;
+    border-style: solid;
+    border-radius: 9px;
+    border-color: #b6b0b0;
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#mainDivSearch p{
+    padding: 5px;
+    font-size: 18px;
+}
+
+.deleteButton , .editButton{    
+    flex-wrap: wrap-reverse;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1.5px solid  #b6b0b0;
+    background-color: transparent;
+    margin: 10px;
+    background-size: 38px 38px;
+    font-size: 13px;
+    color:  #b6b0b0;
+}
+#mainDivSearch button:hover{
+    height: 55px;
+    width: 55px;
+    margin-bottom: 0;
+    color: black;
+    border-color: black; 
+}
